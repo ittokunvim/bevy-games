@@ -40,12 +40,12 @@
 		"updatedAt": "2023-10-26"
 	},
 	{
-		"slug": "bevy-timing-game",
-		"title": "タイミングゲームv2",
+		"slug": "ittoku-timing-game",
+		"title": "いっとくタイミングゲーム",
 		"description": "ゲームエンジンBevyで作られたタイミングゲーム",
 		"size": "640x480",
 		"createdAt": "2024-10-01",
-		"updatedAt": "2024-10-10"
+		"updatedAt": "2025-05-03"
 	},
 	{
 		"slug": "bevy-click-game",
