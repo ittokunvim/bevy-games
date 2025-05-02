@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>Ittoku Tetris</title>
+		<title>いっとくテトリス</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta name="description" content="Web site where you can play click games." />
 		<style>
@@ -11,7 +11,7 @@
 		</style>
 		<script type="module">
 			import "./restart-audio-context.js";
-			import init from './wasm/ittoku-tetris.js';
+			import init from './wasm/ittoku_tetris.js';
 
 			init().catch((err) => {
 			  if (!err.message.startsWith("Using exceptions for control flow,")) {
