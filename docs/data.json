@@ -56,12 +56,12 @@
 		"updatedAt": "2025-05-03"
 	},
 	{
-		"slug": "bevy-2dshooting-game",
-		"title": "2Dシューティングゲームv2",
+		"slug": "ittoku-2dshooting-game",
+		"title": "いっとく2Dシューティングゲーム",
 		"description": "ゲームエンジンBevyで作られた2Dのシューティングゲーム",
 		"size": "640x480",
 		"createdAt": "2024-12-13",
-		"updatedAt": "2025-01-08"
+		"updatedAt": "2025-05-03"
 	},
 	{
 		"slug": "ittoku-tetris",
