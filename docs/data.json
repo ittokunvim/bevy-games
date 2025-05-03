@@ -48,12 +48,12 @@
 		"updatedAt": "2025-05-03"
 	},
 	{
-		"slug": "bevy-click-game",
-		"title": "クリックゲームv2",
+		"slug": "ittoku-click-game",
+		"title": "いっとくクリックゲーム",
 		"description": "ゲームエンジンBevyで作られたクリックゲーム",
 		"size": "640x480",
 		"createdAt": "2024-12-10",
-		"updatedAt": "2024-12-10"
+		"updatedAt": "2025-05-03"
 	},
 	{
 		"slug": "bevy-2dshooting-game",
