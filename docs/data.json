@@ -4,6 +4,7 @@
 		"title": "いっとくタイミングゲーム",
 		"description": "ゲームエンジンBevyで作られたタイミングゲーム",
 		"size": "640x480",
+		"wasm": "wasm/ittoku_timing_game.js",
 		"createdAt": "2024-10-01",
 		"updatedAt": "2025-05-03"
 	},
@@ -12,6 +13,7 @@
 		"title": "いっとくクリックゲーム",
 		"description": "ゲームエンジンBevyで作られたクリックゲーム",
 		"size": "640x480",
+		"wasm": "wasm/ittoku_click_game.js",
 		"createdAt": "2024-12-10",
 		"updatedAt": "2025-05-03"
 	},
@@ -20,6 +22,7 @@
 		"title": "いっとく2Dシューティングゲーム",
 		"description": "ゲームエンジンBevyで作られた2Dのシューティングゲーム",
 		"size": "640x480",
+		"wasm": "wasm/ittoku_2dshooting_game.js",
 		"createdAt": "2024-12-13",
 		"updatedAt": "2025-05-03"
 	},
@@ -28,6 +31,7 @@
 		"title": "いっとくテトリス",
 		"description": "ゲームエンジンBevyで作られたテトリス",
 		"size": "640x480",
+		"wasm": "wasm/ittoku_tetris.js",
 		"createdAt": "2025-04-11",
 		"updatedAt": "2025-05-02"
 	}
