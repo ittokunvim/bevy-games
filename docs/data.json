@@ -1,45 +1,5 @@
 [
 	{
-		"slug": "timing_game",
-		"title": "タイミングゲームv1",
-		"description": "このゲームは、真ん中のキーをタイミングよく入力してハイスコアを目指すゲームです",
-		"size": "800x600",
-		"createdAt": "2023-10-07",
-		"updatedAt": "2023-10-14"
-	},
-	{
-		"slug": "click_game",
-		"title": "クリックゲームv1",
-		"description": "このゲームは、画面上を動き回るオブジェクトをクリックするゲームです",
-		"size": "1080x720",
-		"createdAt": "2023-10-08",
-		"updatedAt": "2023-10-08"
-	},
-	{
-		"slug": "2d_shooting",
-		"title": "2Dシューティングゲームv1",
-		"description": "このゲームは、プレイヤーが弾丸を発射して敵を倒すシューティングゲームです",
-		"size": "700x700",
-		"createdAt": "2023-10-09",
-		"updatedAt": "2023-10-20"
-	},
-	{
-		"slug": "frogger",
-		"title": "フロッガーゲーム",
-		"description": "このゲームは、カエルを操作して動く障害物を避けながらゴールを目指すゲームです",
-		"size": "800x600",
-		"createdAt": "2023-10-20",
-		"updatedAt": "2023-10-20"
-	},
-	{
-		"slug": "flappy_bird",
-		"title": "フラッピーバード",
-		"description": "このゲームは、小さな鳥を操作して障害物の間を通り抜け、高得点を目指すゲームです",
-		"size": "700x700",
-		"createdAt": "2023-10-26",
-		"updatedAt": "2023-10-26"
-	},
-	{
 		"slug": "ittoku-timing-game",
 		"title": "いっとくタイミングゲーム",
 		"description": "ゲームエンジンBevyで作られたタイミングゲーム",
