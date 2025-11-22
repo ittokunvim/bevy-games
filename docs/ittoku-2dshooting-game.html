@@ -3,7 +3,7 @@
 		<meta charset="utf-8" />
 		<title>いっとく2Dシューティングゲーム</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<meta name="description" content="Web site where you can play bevy 2d shooting games." />
+		<meta name="description" content="Web site where you can play ittoku 2d shooting games." />
 		<style>
 			body {
 				margin: 0 auto;
@@ -11,7 +11,7 @@
 		</style>
 		<script type="module">
 			import "./restart-audio-context.js";
-			import init from './wasm/ittoku-2dshooting-game.js';
+			import init from './wasm/ittoku_2dshooting_game.js';
 
 			init().catch((err) => {
 			  if (!err.message.startsWith("Using exceptions for control flow,")) {
@@ -20,4 +20,7 @@
 			});
 		</script>
 	</head>
+	<body>
+		<canvas id="bevy"></canvas>
+	</body>
 </html>
