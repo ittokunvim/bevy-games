@@ -1,132 +1,21 @@
 <!DOCTYPE html>
 <html lang="ja">
 	<head>
-		<title>ittokunvimのゲームサイト</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<style>
-			:root {
-				--color-text-primary: #333333;
-				--color-text-secondary: #666666;
-				--color-text-link: #1e90ff;
-
-				--color-background-primary: #ffffff;
-				--color-background-secondary: #f5f5f5;
-
-				--color-border-primary: #d8d8d8;
-			}
-
-			html {
-				font-family: Arial, Helvetica, sans-serif;
-				font-size: 16px;
-			}
-
-			body {
-				background-color: var(--background-color);
-				color: var(--text-color);
-				max-width: 800px;
-				margin: 0 auto;
-				padding: 1rem;
-			}
-
-			h1 {
-				font-size: 2rem;
-				font-weight: bold;
-				text-align: center;
-			}
-
-			hr {
-				margin: 1rem 0;
-				padding: 1rem;
-				border: none;
-				border-bottom: 1px solid var(--color-border-primary);
-			}
-
-			#games h2 {
-				font-size: 1.5rem;
-				text-align: center;
-			}
-
-			#games .list {
-				display: grid;
-				grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-				gap: 1rem;
-			}
-
-			#games .item {
-				display: flex;
-				flex-direction: column;
-				gap: 0.25em;
-				border: 1px solid var(--color-border-primary);
-			}
-
-			#games .item p {
-				margin: 0;
-			}
-
-			#games .item .thumbnail {
-				position: relative;
-				padding-bottom: 80%;
-			}
-
-			#games .item .thumbnail img {
-			  position: absolute;
-			  top: 0;
-			  left: 0;
-			  width: 100%;
-			  height: 100%;
-			  object-fit: cover;
-			}
-
-			#games .item .link {
-				font-size: 0.9em;
-				text-align: center;
-			}
-
-			#games .item .link a {
-				color: var(--color-text-link);
-				text-decoration: none;
-				font-weight: bold;
-			}
-
-			#games .item .link a:hover {
-				text-decoration: underline;
-			}
-
-			#games .item .description {
-				font-size: 0.8em;
-				padding: 0 0.2em;
-			}
-
-			#games .item .size {
-				font-size: 0.8em;
-				color: var(--color-text-secondary);
-				padding: 0 0.2em;
-			}
-
-			#games .item .date {
-				font-size: 0.8em;
-				color: var(--color-text-secondary);
-				padding: 0 0.2em;
-			}
-
-			.copyright {
-				font-size: 0.8em;
-				text-align: center;
-				color: var(--color-text-secondary);
-				margin-top: 2rem;
-				border-top: 1px solid var(--color-border-primary);
-			}
-		</style>
+		<title>ittokunvimのゲームサイト</title>
+		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
-		<h1>ittokunvimのゲームサイト</h1>
-		<div class="about">
-			このサイトには、私が作成した色々なゲームが保存されています。
+		<div class="page">
+			<h1>ittokunvimのゲームサイト</h1>
+			<div class="about">
+				このサイトには、私が作成した色々なゲームが保存されています。
+			</div>
+			<hr />
+			<div id="games"></div>
+			<div class="copyright"><p>&copy; ittokunvim All Rights Reserved.</p></div>
 		</div>
-		<hr />
-		<div id="games"></div>
-		<div class="copyright"><p>&copy; ittokunvim All Rights Reserved.</p></div>
 		<script type="module">
 			const games = document.querySelector("#games");
 
