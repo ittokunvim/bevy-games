@@ -108,6 +108,14 @@ hr {
 	padding: 0 0.2em;
 }
 
+#bevy {
+    width: 100% !important;
+	/* height: auto !important; */
+	min-width: 180px;
+	min-height: 120px;
+	aspect-ratio: 1;
+}
+
 .copyright {
 	font-size: 0.8em;
 	text-align: center;
